@@ -110,37 +110,39 @@ The project focuses on questions such as:
 
 ---
 
-## 📁 Repository Structure
-
-```text
-Manufacturing-Efficiency-Analytics/
-│
-├── README.md
-│
-├── SQL/
-│   └── analysis_queries.sql
-│
-├── Python/
-│   └── Manufacturing_Efficiency_Analysis.ipynb
-│
-├── PowerBI/
-│   └── Manufacturing_Efficiency_Dashboard.pbix
-│
-├── Screenshots/
-│   ├── dashboard_overview.png
-│   ├── efficiency_analysis.png
-│   └── gap_prioritization.png
-│
-└── requirements.txt
-```
-
----
-
 ## 📂 Dataset
 
 Dataset: The project was developed using a manufacturing efficiency dataset provided for analytical and educational purposes. The original dataset is not included in this repository.
 
 ---
+🗄️ SQL Analysis
+
+SQL was used to structure and investigate the manufacturing data and support the analytical workflow.
+
+The SQL stage focuses on areas such as:
+
+Production and energy performance
+Operational context
+Aggregations and trends
+Efficiency indicators
+Expected vs actual performance
+Efficiency-gap analysis
+Decision-support tables
+🐍 Python Analysis
+
+Python was used for data profiling, preparation, exploration, and analytical modeling.
+
+Key activities include:
+
+Data inspection
+Missing-value and quality assessment
+Data cleaning
+Feature preparation
+Exploratory analysis
+Context-aware analysis
+Analytical modeling
+Expected-energy benchmarking
+Efficiency-gap investigation
 
 ## 📈 Power BI Dashboard
 
@@ -156,7 +158,31 @@ It focuses on:
 * Gap prioritization
 * Areas requiring further investigation
 
-### Dashboard Preview
+## 📊 Dashboard Overview
+
+Here are the key views and analytical dashboards included in this project:
+
+<div align="center">
+
+### Executive Overview & Energy Consumption
+![Dashboard View 1](./dashboard_01.png)
+
+<br/>
+
+### Production Efficiency & OEE Analysis
+![Dashboard View 2](./dashboard_02.png)
+
+<br/>
+
+### Context-Aware Anomaly Detection
+![Dashboard View 3](./dashboard_03.png)
+
+<br/>
+
+### Decision Support & Prioritized Actions
+![Dashboard View 4](./dashboard_04.png)
+
+</div>
 
 *Add dashboard screenshots here.*
 
