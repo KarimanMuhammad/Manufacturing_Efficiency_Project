@@ -233,6 +233,10 @@ This project connects **data preparation, SQL analysis, context-aware analytics,
 > **The goal is not only to monitor energy consumption, but to understand performance in context and identify where investigation should begin.**
 >
 > ---
+### 👨‍💻 Author
 
+**Kariman Abdelmajed**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/kariman-muhammad)
 
 
