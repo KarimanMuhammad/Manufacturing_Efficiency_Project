@@ -231,3 +231,8 @@ The project can be extended through:
 This project connects **data preparation, SQL analysis, context-aware analytics, expected-energy benchmarking, efficiency-gap detection, and Power BI** to transform manufacturing energy data into actionable analytical evidence.
 
 > **The goal is not only to monitor energy consumption, but to understand performance in context and identify where investigation should begin.**
+>
+> ---
+
+
+
