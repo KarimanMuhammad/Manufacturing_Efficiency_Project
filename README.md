@@ -235,8 +235,8 @@ This project connects **data preparation, SQL analysis, context-aware analytics,
 > ---
 ### 👨‍💻 Author
 
-**Kariman Abdelmajed**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kariman-muhammad/)
+<a href="https://www.linkedin.com/in/kariman-muhammad/" target="_blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kariman Muhammad LinkedIn" height="30" width="40" />
+</a> **Kariman Muhammad**
 
 
