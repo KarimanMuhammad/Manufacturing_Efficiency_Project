@@ -243,15 +243,8 @@ This project connects **data preparation, SQL analysis, context-aware analytics,
 
 ---
 
-### 👨‍💻 Author
 
-**Kariman Abdelmajed**
 
-<a href="https://www.linkedin.com/in/kariman-muhammad/" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kariman Muhammad LinkedIn" height="30" width="40" />
-</a>
-
----
 
 ## 📁 Repository Structure
 
@@ -268,6 +261,13 @@ Manufacturing-Efficiency-Analytics/
 └── README.md
 ```
 
+## 👨‍💻 Author
+
+**Kariman Abdelmajed**
+
+<a href="https://www.linkedin.com/in/kariman-muhammad/" target="_blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kariman Muhammad LinkedIn" height="30" width="40" />
+</a>
 - `notebooks/` — Python notebook for data profiling and cleaning.
 - `sql/` — SQL files for analytics and decision-support analysis.
 - `powerbi/` — Power BI decision-support dashboard.
