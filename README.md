@@ -158,34 +158,6 @@ It focuses on:
 * Gap prioritization
 * Areas requiring further investigation
 
-## 📊 Dashboard Overview
-
-Here are the key views and analytical dashboards included in this project:
-
-<div align="center">
-
-### Executive Overview & Energy Consumption
-![Dashboard View 1](./dashboard_01.png.jpg)
-
-<br/>
-
-### Production Efficiency & OEE Analysis
-![Dashboard View 2](./dashboard_02.png.jpg)
-
-<br/>
-
-### Context-Aware Anomaly Detection
-![Dashboard View 3](./dashboard_03.png.jpg)
-
-<br/>
-
-### Decision Support & Prioritized Actions
-![Dashboard View 4](./dashboard_04.png.jpg)
-
-</div>
-
-
----
 
 ## 🎯 Target Users
 
