@@ -20,10 +20,10 @@ Manufacturing managers need to understand whether observed energy consumption is
 
 However:
 
-* Energy consumption varies with production and operating conditions.
-* Energy-only comparisons can hide recurring efficiency gaps.
-* Potential inefficiencies can be difficult to identify and prioritize.
-* Decision-makers need evidence to determine where further investigation should begin.
+- Energy consumption varies with production and operating conditions.
+- Energy-only comparisons can hide recurring efficiency gaps.
+- Potential inefficiencies can be difficult to identify and prioritize.
+- Decision-makers need evidence to determine where further investigation should begin.
 
 The project therefore focuses on moving beyond descriptive energy monitoring toward **context-aware efficiency assessment and evidence-based decision support**.
 
@@ -63,23 +63,23 @@ Present the analytical results through an interactive Power BI dashboard to help
 
 ```text
 Manufacturing Data
-        ↓
+       ↓
 Data Cleaning & Preparation
-        ↓
+       ↓
 SQL Database & Analysis
-        ↓
+       ↓
 Exploratory Data Analysis
-        ↓
+       ↓
 Context-Aware Analysis
-        ↓
+       ↓
 Expected-Energy Benchmarking
-        ↓
+       ↓
 Actual vs Expected
-        ↓
+       ↓
 Efficiency Gap Detection
-        ↓
+       ↓
 Gap Prioritization
-        ↓
+       ↓
 Power BI Decision-Support Dashboard
 ```
 
@@ -89,24 +89,24 @@ Power BI Decision-Support Dashboard
 
 The project focuses on questions such as:
 
-* How does energy consumption vary with production and operating conditions?
-* What does expected energy performance look like under comparable conditions?
-* Where do actual energy values deviate meaningfully from expected performance?
-* Which efficiency gaps recur across the data?
-* Which gaps should receive further operational investigation?
-* How can the findings be communicated clearly to decision-makers?
+- How does energy consumption vary with production and operating conditions?
+- What does expected energy performance look like under comparable conditions?
+- Where do actual energy values deviate meaningfully from expected performance?
+- Which efficiency gaps recur across the data?
+- Which gaps should receive further operational investigation?
+- How can the findings be communicated clearly to decision-makers?
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Area                | Tools                 |
-| ------------------- | --------------------- |
-| Data Preparation    | Python, Pandas, NumPy |
-| Database & Querying | SQL Server            |
-| Data Analysis       | Python, Pandas, NumPy |
-| Machine Learning    | Python, Scikit-learn  |
-| Visualization & BI  | Power BI, DAX         |
+| Area | Tools |
+|---|---|
+| Data Preparation | Python, Pandas, NumPy |
+| Database & Querying | SQL Server |
+| Data Analysis | Python, Pandas, NumPy |
+| Machine Learning | Python, Scikit-learn |
+| Visualization & BI | Power BI, DAX |
 
 ---
 
@@ -115,34 +115,40 @@ The project focuses on questions such as:
 Dataset: The project was developed using a manufacturing efficiency dataset provided for analytical and educational purposes. The original dataset is not included in this repository.
 
 ---
-🗄️ SQL Analysis
+
+## 🗄️ SQL Analysis
 
 SQL was used to structure and investigate the manufacturing data and support the analytical workflow.
 
 The SQL stage focuses on areas such as:
 
-Production and energy performance
-Operational context
-Aggregations and trends
-Efficiency indicators
-Expected vs actual performance
-Efficiency-gap analysis
-Decision-support tables
-🐍 Python Analysis
+- Production and energy performance
+- Operational context
+- Aggregations and trends
+- Efficiency indicators
+- Expected vs actual performance
+- Efficiency-gap analysis
+- Decision-support tables
+
+---
+
+## 🐍 Python Analysis
 
 Python was used for data profiling, preparation, exploration, and analytical modeling.
 
 Key activities include:
 
-Data inspection
-Missing-value and quality assessment
-Data cleaning
-Feature preparation
-Exploratory analysis
-Context-aware analysis
-Analytical modeling
-Expected-energy benchmarking
-Efficiency-gap investigation
+- Data inspection
+- Missing-value and quality assessment
+- Data cleaning
+- Feature preparation
+- Exploratory analysis
+- Context-aware analysis
+- Analytical modeling
+- Expected-energy benchmarking
+- Efficiency-gap investigation
+
+---
 
 ## 📈 Power BI Dashboard
 
@@ -150,21 +156,52 @@ The Power BI dashboard translates the analytical findings into an interactive de
 
 It focuses on:
 
-* Energy performance
-* Production and operating context
-* Actual vs expected energy performance
-* Efficiency gaps
-* Recurring inefficiencies
-* Gap prioritization
-* Areas requiring further investigation
+- Energy performance
+- Production and operating context
+- Actual vs expected energy performance
+- Efficiency gaps
+- Recurring inefficiencies
+- Gap prioritization
+- Areas requiring further investigation
 
+## 📊 Dashboard Overview
+
+Here are the key views and analytical dashboards included in this project:
+
+<div align="center">
+
+### Executive Overview & Energy Consumption
+
+![Dashboard View 1](./screenshots/dashboard_01.png.PNG)
+
+<br/>
+
+### Production Efficiency & OEE Analysis
+
+![Dashboard View 2](./screenshots/dashboard_02.png.jpg)
+
+<br/>
+
+### Context-Aware Anomaly Detection
+
+![Dashboard View 3](./screenshots/dashboard_03.png.jpg)
+
+<br/>
+
+### Decision Support & Prioritized Actions
+
+![Dashboard View 4](./screenshots/dashboard_04.png.jpg)
+
+</div>
+
+---
 
 ## 🎯 Target Users
 
 **Primary users:**
 
-* Manufacturing Managers
-* Operations Managers
+- Manufacturing Managers
+- Operations Managers
 
 The solution is designed to support operational investigation and prioritization by providing analytical evidence alongside the underlying performance indicators.
 
@@ -190,11 +227,11 @@ This shift enables a more structured approach to identifying and prioritizing po
 
 The project can be extended through:
 
-* More advanced predictive expected-energy modeling.
-* Validation using real manufacturing operational data.
-* Integration of real-time manufacturing data.
-* Continuous efficiency assessment.
-* Further automation of the analytical workflow.
+- More advanced predictive expected-energy modeling.
+- Validation using real manufacturing operational data.
+- Integration of real-time manufacturing data.
+- Continuous efficiency assessment.
+- Further automation of the analytical workflow.
 
 ---
 
@@ -203,12 +240,36 @@ The project can be extended through:
 This project connects **data preparation, SQL analysis, context-aware analytics, expected-energy benchmarking, efficiency-gap detection, and Power BI** to transform manufacturing energy data into actionable analytical evidence.
 
 > **The goal is not only to monitor energy consumption, but to understand performance in context and identify where investigation should begin.**
->
-> ---
+
+---
+
 ### 👨‍💻 Author
+
 **Kariman Abdelmajed**
+
 <a href="https://www.linkedin.com/in/kariman-muhammad/" target="_blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Kariman Muhammad LinkedIn" height="30" width="40" />
-</a> 
+</a>
 
+---
 
+## 📁 Repository Structure
+
+```text
+Manufacturing-Efficiency-Analytics/
+├── notebooks/
+│   └── 01_Data_Profiling_and_Cleaning.ipynb
+├── sql/
+│   ├── Manufacturing_Efficiency_Analytics_SQL.sql
+│   └── Manufacturing_Efficiency_Decision_Support_SQL.sql
+├── powerbi/
+│   └── Manufacturing_Efficiency_Dashboard.pbix
+├── screenshots/
+└── README.md
+```
+
+- `notebooks/` — Python notebook for data profiling and cleaning.
+- `sql/` — SQL files for analytics and decision-support analysis.
+- `powerbi/` — Power BI decision-support dashboard.
+- `screenshots/` — Dashboard screenshots displayed above in this README.
+- `README.md` — Project overview, workflow, and documentation.
